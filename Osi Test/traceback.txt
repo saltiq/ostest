@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 65, in script
+    if else:
+SyntaxError: unexpected EOF while parsing (game/script.rpy, line 65)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 65, in script
+    if else:
+  File "C:\Users\Flying Phoenix PCs\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 1843, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\Flying Phoenix PCs\Downloads\renpy-8.3.2-sdk\renpy\python.py", line 1207, in py_eval
+    code = py_compile(code, 'eval')
+  File "C:\Users\Flying Phoenix PCs\Downloads\renpy-8.3.2-sdk\renpy\python.py", line 1144, in py_compile
+    raise e
+  File "C:\Users\Flying Phoenix PCs\Downloads\renpy-8.3.2-sdk\renpy\python.py", line 1081, in py_compile
+    raise orig_e
+  File "C:\Users\Flying Phoenix PCs\Downloads\renpy-8.3.2-sdk\renpy\python.py", line 1073, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: unexpected EOF while parsing (game/script.rpy, line 65)
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.3.2.24090902
+Osi Test 1.0
+Wed Sep 11 20:07:39 2024
