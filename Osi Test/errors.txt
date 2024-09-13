@@ -2,25 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 36: end of line expected.
-    jump choices 1_a
-                 ^
-
-File "game/script.rpy", line 40: end of line expected.
-    jump choices 1_b
-                 ^
-
-File "game/script.rpy", line 42: expected ':' not found.
-    label choices 1_a:
-                  ^
-
-File "game/script.rpy", line 46: expected ':' not found.
-    label choices 1_b:
-                  ^
-
-File "game/script.rpy", line 51: expected ':' not found.
-    label choices 1_common:
-                  ^
+File "game/script.rpy", line 195: expected ':' not found.
+    else osiris_affection <=0:
+         ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Wed Sep 11 19:54:35 2024
+Thu Sep 12 21:08:29 2024

@@ -1,15 +1,15 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 65, in script
-    if else:
-SyntaxError: unexpected EOF while parsing (game/script.rpy, line 65)
+  File "game/script.rpy", line 188, in script
+    if osiris_affection >= 5 and vikiName == True:
+SyntaxError: invalid syntax (game/script.rpy, line 194)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 65, in script
-    if else:
+  File "game/script.rpy", line 188, in script
+    if osiris_affection >= 5 and vikiName == True:
   File "C:\Users\Flying Phoenix PCs\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 1843, in execute
     if renpy.python.py_eval(condition):
   File "C:\Users\Flying Phoenix PCs\Downloads\renpy-8.3.2-sdk\renpy\python.py", line 1207, in py_eval
@@ -20,9 +20,9 @@ Full traceback:
     raise orig_e
   File "C:\Users\Flying Phoenix PCs\Downloads\renpy-8.3.2-sdk\renpy\python.py", line 1073, in py_compile
     tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
-SyntaxError: unexpected EOF while parsing (game/script.rpy, line 65)
+SyntaxError: invalid syntax (game/script.rpy, line 194)
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.2.24090902
 Osi Test 1.0
-Wed Sep 11 20:07:39 2024
+Thu Sep 12 20:56:41 2024
